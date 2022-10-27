@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake</title>
+</head>
+<body>
+    <h1>Snake</h1>
+    <div class="score">Score: <span id="score"></span><span class="highestScore">Highest Score: <span id="highestScore"></span></span></div>
+    <canvas id="board"></canvas>
+    <div id="gameOver" class="gameOver">
+        <h1 id="displayGameOverMsg"></h1>
+        <div class="score">Your score was: <span id="endScore"></span></div>
+        <div><span class="highestScore">Highest Score: <span id="endHighestScore"></span></span></div>
+        <button id="resetBtn" class="resetBtn">Restart</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
